@@ -51,7 +51,7 @@ const NavBar = () => {
               <Image src={Logo}  alt=""/>
             </Link>
             <div className='max-sm:hidden h-16'>
-                <div className="text-4xl font-bold dark:text-white">
+                <div className="text-4xl font-extrabold dark:text-white">
                   RUSTIC
                 </div>
                 <div className="text-center dark:text-white">
@@ -76,7 +76,7 @@ const NavBar = () => {
             <li className='p-2 md:p-4'>
               <Menu as='div' className='relative inline-block text-left'>
                 <div>
-                  <Menu.Button className='inline-flex justify-center w-full rounded-md border border-zinc-300 shadow-sm px-4 py-2 dark:bg-zinc-950 max-sm:text-xs font-medium text-zinc-700 dark:text-zinc-200 hover:bg-zinc-50 dark:hover:bg-zinc-900'>
+                  <Menu.Button className='inline-flex justify-center w-full rounded-md border border-zinc-300 dark:border-zinc-900 shadow-sm px-4 py-2 dark:bg-zinc-950 max-sm:text-xs font-medium text-zinc-700 dark:text-zinc-200 hover:bg-zinc-50 dark:hover:bg-zinc-900'>
                     Menú
                     <FaAngleDown
                       className='-mr-1 sm:mt-1 ml-2 h-4 w-4'
