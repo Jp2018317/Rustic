@@ -18,6 +18,7 @@ const RustiCombos = () => {
               layout="fill"
               objectFit="cover"
               sizes="100vw"
+              placeholder="blur"
             />
           </div>
         </div>
