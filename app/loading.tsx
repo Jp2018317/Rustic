@@ -1,0 +1,12 @@
+import Image from "next/image";
+import Logo from "@/public/Images/Logo/RusticLogo.png";
+
+export default function Loading() {
+  return (
+    <div className="pt-[90px] w-full dark:bg-zinc-900">
+      <div className="flex h-[calc(100vh-6rem)] items-center justify-center">
+        <Image src={Logo} alt="Rustic Logo" className="w-96 h-96" />
+      </div>
+    </div>
+  );
+}

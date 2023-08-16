@@ -1,10 +1,9 @@
 import './globals.css'
 import type { Metadata } from 'next'
-import { Inter, Raleway } from 'next/font/google'
+import { Raleway } from 'next/font/google'
 import NavBar from './components/NavBar'
 import Footer from './components/Footer'
 
-const inter = Inter({ subsets: ['latin'] })
 const raleway = Raleway({ subsets: ['latin']})
 
 export const metadata: Metadata = {

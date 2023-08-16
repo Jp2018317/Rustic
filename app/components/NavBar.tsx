@@ -40,7 +40,7 @@ const NavBar = () => {
   }, [prevScrollY]);
 
   return (
-    <div className="fixed w-full z-50">
+    <div className="fixed w-full z-[998]">
       <nav
         className={`bg-white dark:bg-zinc-950  transition-all border-gray-200 dark:border-zinc-700 ${fade}`}
       >
