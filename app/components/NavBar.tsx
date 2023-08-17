@@ -11,6 +11,7 @@ import { IoMdWine } from 'react-icons/io'
 import { PiCakeBold } from 'react-icons/pi'
 import { GiKnifeFork } from 'react-icons/gi'
 import { AiFillBook } from 'react-icons/ai'
+import { alfaSlabOne } from '@/fonts';
 
 function classNames(...classes: any[]) {
   return classes.filter(Boolean).join(' ')
@@ -24,7 +25,7 @@ const NavBar = () => {
     const handleScroll = () => {
       const currentScrollY = window.scrollY;
 
-      if (currentScrollY > 50 && currentScrollY > prevScrollY) {
+      if (currentScrollY > 90 && currentScrollY > prevScrollY) {
         setFade('-translate-y-24 duration-300');
       } else {
         setFade('duration-200 border-b shadow-lg');
@@ -51,9 +52,9 @@ const NavBar = () => {
               <Image src={Logo}  alt=""/>
             </Link>
             <Link href="/" className='max-sm:hidden h-16'>
-                <div className="text-4xl font-extrabold dark:text-white">
-                  RUSTIC
-                </div>
+                  <div className={`text-4xl dark:text-white ${alfaSlabOne.className}`}>
+                    RUSTIC
+                  </div>
                 <div className="text-center dark:text-white">
                   Sport Bar
                 </div>

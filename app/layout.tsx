@@ -1,10 +1,8 @@
 import './globals.css'
 import type { Metadata } from 'next'
-import { Raleway } from 'next/font/google'
 import NavBar from './components/NavBar'
 import Footer from './components/Footer'
-
-const raleway = Raleway({ subsets: ['latin']})
+import { raleway } from '@/fonts'
 
 export const metadata: Metadata = {
   title: 'Rustic Sport Bar'
