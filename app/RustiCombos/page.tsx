@@ -1,5 +1,5 @@
 import Image from "next/image";
-import banner from "@/public/Images/Banners/EntradasYPostres.jpg"
+import banner from "@/public/Images/Banners/RustiCombos.jpg"
 
 const RustiCombos = () => {
   return (
