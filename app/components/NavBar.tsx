@@ -8,7 +8,7 @@ import { FaAngleDown, FaGlassCheers } from 'react-icons/fa';
 import { scroller} from 'react-scroll'
 import Link from 'next/link';
 import { IoMdWine } from 'react-icons/io'
-import { PiCakeBold, PiCoffee } from 'react-icons/pi'
+import { PiCakeBold } from 'react-icons/pi'
 import { GiKnifeFork } from 'react-icons/gi'
 import { AiFillBook } from 'react-icons/ai'
 
@@ -50,14 +50,14 @@ const NavBar = () => {
             <Link href="/" className='w-20 h-20'>
               <Image src={Logo}  alt=""/>
             </Link>
-            <div className='max-sm:hidden h-16'>
+            <Link href="/" className='max-sm:hidden h-16'>
                 <div className="text-4xl font-extrabold dark:text-white">
                   RUSTIC
                 </div>
                 <div className="text-center dark:text-white">
                   Sport Bar
                 </div>
-            </div>
+            </Link>
           </div>
 
           <ul className='flex items-center max-sm:text-xs dark:text-zinc-200'>
@@ -90,7 +90,7 @@ const NavBar = () => {
                   enter='transition ease-out duration-100'
                   enterFrom='transform opacity-0 scale-95'
                   enterTo='transform opacity-100 scale-100'
-                  leave='transition ease-in duration-75'
+                  leave='transition ease-in duration-100'
                   leaveFrom='transform opacity-100 scale-100'
                   leaveTo='transform opacity-0 scale-95'
                 >
@@ -119,7 +119,7 @@ const NavBar = () => {
                       <Menu.Item>
                         {({ active }) => (
                           <Link
-                          href='/Almuerzos'
+                          href='/PlatosFuertes'
                             className={classNames(
                               active
                                 ? 'bg-gray-100 dark:bg-zinc-900'
@@ -129,7 +129,7 @@ const NavBar = () => {
                           >
                             <div className="flex items-center py-1">
                               <GiKnifeFork className="w-4 h-4 mr-1 md:mr-2" />
-                              <p>Almuerzos</p>
+                              <p>Platos Fuertes</p>
                             </div>
                           </Link>
                         )}

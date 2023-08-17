@@ -23,7 +23,7 @@ export default function RootLayout({
         <div id="contact-section">
           <Footer/>
         </div>
-        </body>
+      </body>
     </html>
   )
 }

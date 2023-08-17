@@ -13,10 +13,10 @@ const Carta = () => {
         <div className="relative w-full h-[calc(100vh-35rem)] lg:h-[calc(100vh-15rem)]" style={{ clipPath: 'inset(0 0 0 0)'}}>
           <div className="fixed w-full h-full left-0 top-0">
             <Image
+              className="object-cover"
               src={banner}
               alt="Carta"
-              layout="fill"
-              objectFit="cover"
+              fill
               sizes="100vw"
               placeholder="blur"
             />
