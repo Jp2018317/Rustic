@@ -1,7 +1,7 @@
 "use client"
 
 import React from "react";
-import Logo from '@/public/Images/Logo/RusticLogo.png'
+import Logo from '@/public/Images/Logo/RusticLogo.webp'
 import Image from 'next/image'
 import { BsFacebook, BsInstagram, BsPinAngleFill, BsTelephoneFill } from 'react-icons/bs';
 import { FaTiktok } from 'react-icons/fa';

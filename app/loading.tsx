@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Logo from "@/public/Images/Logo/RusticLogo.png";
+import Logo from "@/public/Images/Logo/RusticLogo.webp";
 
 export default function Loading() {
   return (

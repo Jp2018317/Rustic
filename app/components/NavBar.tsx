@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect, Fragment } from 'react';
 import Image from 'next/image'
-import Logo from '@/public/Images/Logo/RusticLogo.png'
+import Logo from '@/public/Images/Logo/RusticLogo.webp'
 import {Menu, Transition} from "@headlessui/react"
 import { FaAngleDown, FaGlassCheers } from 'react-icons/fa';
 import { scroller} from 'react-scroll'
@@ -51,7 +51,7 @@ const NavBar = () => {
             <Link href="/" className='w-20 h-20'>
               <Image src={Logo}  alt=""/>
             </Link>
-            <Link href="/" className='max-sm:hidden h-16'>
+            <Link href="/" className='max-xs:hidden h-16'>
                   <div className={`text-4xl dark:text-white ${alfaSlabOne.className}`}>
                     RUSTIC
                   </div>

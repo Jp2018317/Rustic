@@ -1,5 +1,5 @@
 import Image from "next/image";
-import banner from "@/public/Images/Banners/PlatosFuertes.jpg"
+import banner from "@/public/Images/Banners/PlatosFuertes.webp"
 
 const PlatosFuertes = () => {
   return (

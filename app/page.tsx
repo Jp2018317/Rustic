@@ -1,5 +1,5 @@
 import Image from "next/image";
-import banner from "@/public/Images/Banners/InicialBanner.jpg"
+import banner from "@/public/Images/Banners/InitialBanner.webp"
 import { alfaSlabOne } from "@/fonts";
 
 export default function Home() {
