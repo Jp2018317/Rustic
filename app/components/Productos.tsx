@@ -4,13 +4,14 @@ interface Props {
     nombre:string
     tipo:string
     precio?:string
+    descripcion?:string
     cubetazo?:string
     botella?:string
     media?:string
     trago?:string
 }
 
-export default function Productos({nombre, tipo, precio, cubetazo, botella, media, trago}: Props) {
+export default function Productos({nombre, tipo, descripcion, precio, cubetazo, botella, media, trago}: Props) {
   return (
       <div className="text-center">
         <div className="flex items-center justify-center" tabIndex={0}>

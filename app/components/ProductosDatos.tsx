@@ -1,3 +1,43 @@
+export const Postres = [
+  {
+    nombre: "Cheesecake de Fresa"
+  },
+  {
+    nombre: "Pastel de Chocolate"
+  }
+]
+
+export const Entradas = [
+  {
+    nombre: "Nachos Supreme",
+    precio: "49"
+  },
+  {
+    nombre: "Papas Supreme",
+    precio: "49"
+  },
+  {
+    nombre: "Papas Fritas",
+    precio: "29",
+    descripcion: "1/2 libra de Papa Frita corte recto"
+  },
+  {
+    nombre: "Papas en Gajo",
+    precio: "29",
+    descripcion: "1/2 libra de Papa Frita corte en gajo"
+  },
+  {
+    nombre: "Plato para 2",
+    precio: "49",
+    descripcion: "1/2 libra de Chorizo Argentino y Tecpaneco"
+  },
+  {
+    nombre: "Plato para 4",
+    precio: "89",
+    descripcion: "1 libra de Chorizo Argentino y Tecpaneco"
+  },
+]
+
 export const Refrescos = [
   {
     nombre: "Coca Cola",
