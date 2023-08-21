@@ -32,14 +32,14 @@ const Bebidas = () => {
 
       <PageNav />
 
-      <div className="w-full bg-[url('/Images/Background.webp')] object-cover bg-center">
-        <div className="bg-[url('/Images/Luces.webp')] object-cover bg-center h-36" />
+      <div className="w-full bg-[url('/Images/BackgroundMobile.webp')] xs:bg-[url('/Images/Background.webp')] object-cover bg-center">
+        <div className="bg-[url('/Images/Luces.webp')] bg-cover bg-center h-36" />
         <div
           id="refrescos-section"
           className="sm:py-5 w-full text-center text-3xl md:text-5xl lg:text-6xl text-white font-bold py-4"
         >
           <div className="flex justify-center gap-x-5">
-            <span className="bg-red-800 p-1 px-10 lg:p-4 lg:px-8 flex items-end">
+            <span className="bg-red-800 p-2 px-5 md:p-4 md:px-12 flex items-end">
               Refrescos Q10<p className="text-lg md:text-xl lg:text-3xl">c/u</p>
             </span>
           </div>
@@ -55,7 +55,7 @@ const Bebidas = () => {
           className="sm:py-5 w-full text-center text-3xl md:text-5xl lg:text-6xl text-white font-bold py-4"
         >
           <div className="flex justify-center">
-            <span className="bg-red-800 p-1 px-4 lg:p-4 lg:px-8">Cervezas</span>
+            <span className="bg-red-800 p-2 px-5 md:p-4 md:px-12">Cervezas</span>
           </div>
         </div>
         <div className="p-3 sm:p-5 grid grid-cols-2 xs:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-y-8 text-white">
@@ -74,10 +74,10 @@ const Bebidas = () => {
           className="w-full py-5 text-center text-3xl md:text-5xl lg:text-6xl text-white font-bold"
         >
           <div className="flex justify-center">
-            <span className="bg-red-800 p-1 px-4 lg:p-4 lg:px-8">Licores</span>
+            <span className="bg-red-800 p-2 px-5 md:p-4 md:px-12">Licores</span>
           </div>
         </div>
-        <div className="max-sm:p-3 p-5 pb-16 grid grid-cols-2 xs:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-y-8 text-white h-fit">
+        <div className="pb-10 p-3 sm:pb-16 sm:p-5 grid grid-cols-2 xs:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-y-8 text-white h-fit">
           {Licores.map((productos) => (
             <Productos
               key={productos.nombre}
