@@ -32,7 +32,7 @@ const Bebidas = () => {
 
       <PageNav />
 
-      <div className="w-full bg-[url('/Images/BackgroundMobile.webp')] xs:bg-[url('/Images/Background.webp')] object-cover bg-center">
+      <div className="w-full bg-[url('/Images/Background.webp')] object-cover bg-center">
         <div className="bg-[url('/Images/Luces.webp')] bg-cover bg-center h-36" />
         <div
           id="refrescos-section"
