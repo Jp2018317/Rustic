@@ -2,6 +2,7 @@ import Image from "next/image";
 
 interface Props {
     nombre:string
+    tipo:string
     precio?:string
     cubetazo?:string
     botella?:string
@@ -9,13 +10,13 @@ interface Props {
     trago?:string
 }
 
-export default function Productos({nombre, precio, cubetazo, botella, media, trago}: Props) {
+export default function Productos({nombre, tipo, precio, cubetazo, botella, media, trago}: Props) {
   return (
       <div className="text-center">
-        <div className="flex items-center justify-center">
+        <div className="flex items-center justify-center" tabIndex={0}>
           <Image
             className="md:w-52 md:h-52 w-36 h-36"
-            src={`/Images/Bebidas/${nombre}.webp`}
+            src={`/Images/${tipo}/${nombre}.webp`}
             alt={`${nombre}Icon`}
             width={300}
             height={300}

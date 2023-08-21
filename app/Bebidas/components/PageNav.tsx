@@ -3,9 +3,9 @@
 import { scroller } from "react-scroll";
 import Image from "next/image";
 import tableBackground from "@/public/Images/TableBackground.webp";
-import cerveza from "@/public/Images/Bebidas/Cerveza.webp";
-import gaseosa from "@/public/Images/Bebidas/Gaseosa.webp";
-import licor from "@/public/Images/Bebidas/Licor.webp";
+import cerveza from "@/public/Images/Bebidas/Cervezas.webp";
+import gaseosa from "@/public/Images/Bebidas/Refrescos.webp";
+import licor from "@/public/Images/Bebidas/Licores.webp";
 
 const PageNav = () => {
   
@@ -79,7 +79,7 @@ const PageNav = () => {
           </li>
         </ul>
         </div>
-          <div className="w-full h-32 lg:h-80">
+          <div className="w-full h-32 lg:h-72">
             <Image
               src={tableBackground}
               fill
