@@ -14,13 +14,11 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
+    <html lang="es">
       <body className={raleway.className}>
         <NavBar/>
         {children}
-        <div id="contact-section">
-          <Footer/>
-        </div>
+        <Footer/>
       </body>
     </html>
   )

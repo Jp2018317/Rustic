@@ -13,7 +13,7 @@ const PageNav = () => {
     <div className="relative">
         <div className="absolute z-40 h-full inset-0 bg-black opacity-20" />
         <div className="absolute z-50 w-full h-full text-white font-bold">
-          <ul className="h-full flex items-end pb-8 lg:pb-12 text-center justify-around text-xl lg:text-4xl font-bold dark:text-zinc-200">
+          <ul className="h-full flex items-end pb-8 lg:pb-12 text-center justify-evenly text-xl lg:text-4xl font-semibold text-white">
           <li>
             <button
               onClick={() =>
@@ -26,12 +26,12 @@ const PageNav = () => {
             >
               <div>
                   <Image
-                    className="w-[30rem]"
+                    className="w-[25rem]"
                     src={gaseosa}
                     alt="Gaseosa"
                     placeholder="blur"
                   />
-                <span>Refrescos</span>
+                <p>Refrescos</p>
               </div>
             </button>
           </li>
@@ -47,12 +47,12 @@ const PageNav = () => {
             >
               <div>
                 <Image
-                  className="w-[30rem]"
+                  className="w-[25rem]"
                   src={cerveza}
                   alt="Cerveza"
                   placeholder="blur"
                 />
-                <span>Cervezas</span>
+                <p>Cervezas</p>
               </div>
             </button>
           </li>
@@ -68,12 +68,12 @@ const PageNav = () => {
             >
               <div>
                 <Image
-                  className="w-[30rem]"
+                  className="w-[25rem]"
                   src={licor}
                   alt="Licor"
                   placeholder="blur"
                 />
-                <span>Licores</span>
+                <p>Licores</p>
               </div>
             </button>
           </li>

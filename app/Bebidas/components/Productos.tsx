@@ -12,7 +12,7 @@ interface Props {
 export default function Productos({nombre, precio, cubetazo, botella, media, trago}: Props) {
   return (
       <div className="text-center">
-        <div className=" flex items-center justify-center">
+        <div className="flex items-center justify-center">
           <Image
             className="md:w-52 md:h-52 w-36 h-36"
             src={`/Images/Bebidas/${nombre}.webp`}
@@ -21,7 +21,7 @@ export default function Productos({nombre, precio, cubetazo, botella, media, tra
             height={300}
           />
         </div>
-        <div className="w-full h-full">
+        <div>
           <div className={`text-lg md:text-xl lg:text-2xl ${!precio && 'h-16'}`}>{nombre}</div>
           {
             !precio ? null : <div className="font-semibold text-xl md:text-2xl lg:text-3xl">Q{precio}.00</div>

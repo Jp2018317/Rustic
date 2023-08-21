@@ -9,7 +9,7 @@ import { BiLogoGmail } from 'react-icons/bi';
 import Link from "next/link";
 
 const Footer = () => (
-  <footer className="w-full px-10 py-4 border-t border-zinc-200 shadow md:flex md:items-center md:justify-between dark:bg-zinc-950 dark:border-zinc-700">
+  <footer id="contact-section" className="w-full px-10 py-4 border-t border-zinc-200 shadow md:flex md:items-center md:justify-between dark:bg-zinc-950 dark:border-zinc-700">
     <div className="w-full">
       <div className="md:flex md:justify-between">
         <div className="flex h-1/2 items-center max-sm:justify-center">
