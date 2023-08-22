@@ -73,6 +73,9 @@ const Bebidas = () => {
           id="licores-section"
           className="w-full py-5 text-center text-3xl md:text-5xl lg:text-6xl text-white font-bold"
         >
+          <div className="flex justify-center py-10">
+            <span className="bg-red-800 p-2 px-3 md:p-4 md:px-8 text-xl md:text-2xl lg:text-3xl">* Cócteles desde Q35.00 *</span>
+          </div>
           <div className="flex justify-center">
             <span className="bg-red-800 p-2 px-5 md:p-4 md:px-12">Licores</span>
           </div>

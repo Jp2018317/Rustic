@@ -16,7 +16,7 @@ export default function Productos({nombre, tipo, descripcion, precio, cubetazo, 
       <div className="text-center">
         <div className="flex items-center justify-center" tabIndex={0}>
           <Image
-            className="md:w-52 md:h-52 w-36 h-36"
+            className={`${ tipo === "Bebidas" ? "md:w-52 md:h-52 w-36 h-36" : "md:w-96 md:h-96 w-72 h-72"}`}
             src={`/Images/${tipo}/${nombre}.webp`}
             alt={`${nombre}Icon`}
             width={300}
